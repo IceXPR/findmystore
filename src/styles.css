@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background:rgb(250, 250, 249)
+}
+
+h2 {
+  color:  #E61A62;
+}
+
+strong {
+  color: #846699;
+  font-size: 30px;
+}
+
+a:link {
+  color: #E61A62;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #846699;
+  text-decoration: none;
+}
+
+a img {
+  width: 150px;
+  box-shadow: 5px 5px 5px #888888;
+}

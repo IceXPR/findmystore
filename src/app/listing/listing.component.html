@@ -1,0 +1,18 @@
+<div class='listingHeader'>  
+  <h1>
+  Current Vintage Items Available
+  </h1>
+</div>
+<div class=".listings">
+  <article *ngFor="let listing of listings">
+    <h2>
+      <a href="{{listing.link}}">
+        {{listing.title}}
+      </a>
+    </h2>
+    <span>
+      <div [innerHtml]="listing.description"></div>
+      <!-- {{listing.description}} -->
+    </span>
+  </article>
+</div>n

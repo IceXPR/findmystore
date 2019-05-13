@@ -1,0 +1,35 @@
+.listings {
+  padding: 50px;
+  display: float
+}
+
+h1 {
+  color: #846699
+}
+article {
+  margin-left: 50px;
+  padding-top: 10px;
+}
+
+.listingHeader {
+  padding: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+strong {
+  font-size: 20px;
+}
+
+div {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+article {
+  border: 2px;
+  color: black
+  
+}
+
+
+
