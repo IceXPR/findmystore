@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Listing } from './listing'
 import { ListingService } from './listing.service';
-import { Observable } from 'rxjs';
+
 @Component({
   selector: 'app-listing',
   templateUrl: './listing.component.html',

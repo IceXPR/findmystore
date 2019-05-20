@@ -1,6 +1,10 @@
-# Findmystore
+# findmystore
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+This project projects uses the Ebay RSS feed for a seller and generates an Angular site with the listings.  It was generated with [Angular CLI](https://github.com/angular/angular-cli).
+
+## Before anything
+
+Go inside the find and replace inside code the user "findmystore" to your favorite Ebay seller and only then proceed below, otherwise the code will fail to show the listing.
 
 ## Development server
 
@@ -21,6 +25,11 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Container 
+
+Run `docker build -t findmystore.` to create the container image follow by `docker run -p 8080:80 findmystore` to run the image locally.  Once running point your browser to http://localhost:8080.
+
 
 ## Further help
 

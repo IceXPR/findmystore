@@ -1,15 +1,14 @@
-.listings {
+#listings {
   padding: 50px;
-  display: float
+  max-width: 900px;
+  margin-left: auto ;
+  margin-right: auto ;
 }
 
 h1 {
   color: #846699
 }
-article {
-  margin-left: 50px;
-  padding-top: 10px;
-}
+
 
 .listingHeader {
   padding: 20px;
