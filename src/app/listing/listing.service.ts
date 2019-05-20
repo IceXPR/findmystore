@@ -17,7 +17,6 @@ export class ListingService {
     }
 
     private loadData() {
-        let _xml = this._xml
         let listings: Listing[] = this.listings
 
         this.http.get('http://localhost:8080/api').subscribe(
